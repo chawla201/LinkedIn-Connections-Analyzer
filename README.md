@@ -6,7 +6,7 @@ performed basic data analysis on the synthesized data. Then developed a web appl
 using dash framework to present the findings of the analysis.
 As can be observed above, the project is divided into 3 parts:
 
-1. Web Scraping
+## 1. Web Scraping
 Used the Selenium and Beautiful Soup libraries to perform web scraping to extract information from LinkedIn users' profiles. Used 3 methods: login, connections_scraper and profile_scraper. These were divided into 3 dataframes: connections_data, education and experience.
 
 Extracted Name, Title, Location, Profile, Number of connections, Number of Projects, Number of Languages known and Top Skills for the connections_data.
@@ -15,7 +15,7 @@ Extracted Institute, Degree and Year range for education.
 
 Extracted Profile, Position, Company, Duration for the experience dataframe.
 
-2. Data Pre-processing/ Transformation
+### 2. Data Pre-processing/ Transformation
 The collected data was in a raw form and had to be cleaned and transformed for it to be analysed and gained insights from. There are 3 dataframes namely: connections_data, experience and education.
 
 For the connections_data dataframe, cleaned the Location column to just display the City name without the words like 'Area', divided Number of Connections into 6 categories of range such as 0-100, 100-200,... to 500+, Number of Languages, Number of Projects and created a dictionary for the Top 3 featured Skills of each of the connections and then finally counting the number of people for each skill.
@@ -24,7 +24,7 @@ For the education dataframe, on the basis of the institute and degree name class
 
 For the experience dataframe, divided the position column into 3 categories: full time, interns, student representatives or volunteers, made 6 categories under the duration column starting with <6 months to 20+ years.
 
-3. Visulization of the transformed data on Dash Framework using Plotly Express
+### 3. Visulization of the transformed data on Dash Framework using Plotly Express
 Dash is the most downloaded, trusted framework for building ML & data science web apps. Full stack apps that would typically require a front-end, backend, and dev ops team can now be built and deployed in hours by data scientists with Dash. With Dash Open Source, Dash apps run on your local laptop or workstation, but cannot be easily accessed by others in your organization. To read more and understand Dash, visit https://plotly.com/dash/
 
 Plotly's Python graphing library makes interactive, publication-quality graphs. The plotly.express module (usually imported as px) contains functions that can create entire figures at once, and is referred to as Plotly Express or PX. Plotly Express is a built-in part of the plotly library, and is the recommended starting point for creating most common figures. Every Plotly Express function uses graph objects internally and returns a plotly.graph_objects.Figure instance. Throughout the plotly documentation, you will find the Plotly Express way of building figures at the top of any applicable page, followed by a section on how to use graph objects to build similar figures. Any figure created in a single function call with Plotly Express could be created using graph objects alone, but with between 5 and 100 times more code.
