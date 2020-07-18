@@ -27,11 +27,11 @@ For the experience dataframe, divided the position column into 3 categories: ful
 ### 3. Visulization of the transformed data on Dash Framework using Plotly Express
 Dash is the most downloaded, trusted framework for building ML & data science web apps. Full stack apps that would typically require a front-end, backend, and dev ops team can now be built and deployed in hours by data scientists with Dash. With Dash Open Source, Dash apps run on your local laptop or workstation, but cannot be easily accessed by others in your organization. To read more and understand Dash, visit https://plotly.com/dash/
 
-Plotly's Python graphing library makes interactive, publication-quality graphs. The plotly.express module (usually imported as px) contains functions that can create entire figures at once, and is referred to as Plotly Express or PX. Plotly Express is a built-in part of the plotly library, and is the recommended starting point for creating most common figures. Every Plotly Express function uses graph objects internally and returns a plotly.graph_objects.Figure instance. Throughout the plotly documentation, you will find the Plotly Express way of building figures at the top of any applicable page, followed by a section on how to use graph objects to build similar figures. Any figure created in a single function call with Plotly Express could be created using graph objects alone, but with between 5 and 100 times more code.
+Plotly's Python graphing library makes interactive, publication-quality graphs. The plotly.express module (usually imported as px) contains functions that can create entire figures at once, and is referred to as Plotly Express or PX. Plotly Express is a built-in part of the plotly library, and is the recommended starting point for creating most common figures. To know more about plotly, visit https://plotly.com/python/
 
 Since this is the first time we have used Dash, the dashboard looks fairly simple (consisting of interactive bar charts and pie charts with tiles and tree maps), yet very informative. We plan to incorporate more changes with respect to intricacies in the level or field of study/work later.
 
-It's important to have the assets folder in the same folder you implement your application in, since it's necessary for the stlying purposes.
+Note: It's important to have the assets folder in the same folder you implement your application in, since it's necessary for the stlying purposes.
 
 
 ### Screenshots:
