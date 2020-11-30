@@ -9,14 +9,11 @@ As can be observed above, the project is divided into 3 parts:
 ## 1. Web Scraping
 Used the Selenium and Beautiful Soup libraries to perform web scraping to extract information from LinkedIn users' profiles. Used 3 methods: login, connections_scraper and profile_scraper. These were divided into 3 dataframes: connections_data, education and experience.
 
-#### connections_data:
-Extracted Name, Title, Location, Profile, Number of connections, Number of Projects, Number of Languages known and Top Skills for the connections_data.
+<strong>connections_data:</strong> Extracted Name, Title, Location, Profile, Number of connections, Number of Projects, Number of Languages known and Top Skills for the connections_data.
 
-#### education:
-Extracted Institute, Degree and Year range for education.
+<strong>education:</strong> Extracted Institute, Degree and Year range for education.
 
-#### experience:
-Extracted Profile, Position, Company, Duration for the experience dataframe.
+<strong>experience:</strong> Extracted Profile, Position, Company, Duration for the experience dataframe.
 
 ### 2. Data Pre-processing/ Transformation
 The collected data was in a raw form and had to be cleaned and transformed for it to be analysed and gained insights from. There are 3 dataframes namely: connections_data, experience and education.
