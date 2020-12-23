@@ -6,6 +6,14 @@ performed basic data analysis on the synthesized data. Then developed a web appl
 using dash framework to present the findings of the analysis.
 As can be observed above, the project is divided into 3 parts:
 
+## tl;dr
+- Designed a web scraping script in Python to scrape LinkedIn
+connections
+- Cleaned the data and performed exploratory data analysis
+- Presented the findings as an interactive web application dashboard
+built using Dash framework
+
+
 ## 1. Web Scraping
 Used the Selenium and Beautiful Soup libraries to perform web scraping to extract information from LinkedIn users' profiles. Used 3 methods: login, connections_scraper and profile_scraper. These were divided into 3 dataframes: connections_data, education and experience.
 
